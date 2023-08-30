@@ -16,11 +16,11 @@ function App() {
   
   <main className="container mx-auto p-4">
     <h2 className="text-2xl font-semibold mb-4">Featured Tours</h2>
-    <div className="grid grid-cols-3 gap-4">
+    <div className="flex flex-wrap gap-4 justify-center ">
       {/* Tour Card 1 */}
       <div className="bg-white rounded shadow-md p-4">
         <img src="tour1.jpg" alt="Tour 1" className="w-full h-auto mb-2" />
-        <h3 className="text-xl font-semibold mb-1">Adventure Excursion</h3>
+        <h3 className="text-xl font-semibold mb-1 whitespace-normal ">Adventure Excursion</h3>
         <p className="text-gray-600">Explore thrilling mountains and forests.</p>
         <p className="text-blue-500 font-semibold">$499</p>
       </div>
