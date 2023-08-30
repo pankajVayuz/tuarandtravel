@@ -1,8 +1,6 @@
-import vehicle1 from "./image/vehicle1.jpg"
-import vehicle2 from "./image/vehicle2.webp"
-import vehicle3 from "./image/vehicle3.webp"
+import React from 'react';
 
-function App() {
+const TourAndTravelComponent = () => {
   return (
     <div className="bg-gray-100">
       <header className="bg-blue-500 p-4 text-white">
@@ -16,9 +14,9 @@ function App() {
         <h2 className="text-2xl font-semibold mt-8 mb-4">Vehicle Image Gallery</h2>
         <div className="grid grid-cols-3 gap-4">
           {/* Add your vehicle images here */}
-          <img src={vehicle1} alt="Vehicle 1" className="w-full h-auto rounded-md" />
-          <img src={vehicle2} alt="Vehicle 2" className="w-full h-auto rounded-md" />
-          <img src={vehicle3} alt="Vehicle 3" className="w-full h-auto rounded-md" />
+          <img src="vehicle1.jpg" alt="Vehicle 1" className="w-full h-auto" />
+          <img src="vehicle2.jpg" alt="Vehicle 2" className="w-full h-auto" />
+          <img src="vehicle3.jpg" alt="Vehicle 3" className="w-full h-auto" />
           {/* Add more images as needed */}
         </div>
         
@@ -44,4 +42,4 @@ function App() {
   );
 }
 
-export default App;
+export default Tour
