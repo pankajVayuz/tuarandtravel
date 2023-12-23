@@ -61,15 +61,15 @@ function App() {
           <div>
             <h3 className="text-xl font-semibold mb-2">Location</h3>
             <p>Happu Tour and Travel</p>
-            <p>Noida</p>
+            <p>Noida Sector 5  Gautam Budh Nagar UP</p>
             <p>Delhi, India</p>
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-2">Email</h3>
-            <p>contact@example.com</p>
+            <p>harishawana33101@gmail.com</p>
             <div>
             <h3 className="text-xl font-semibold mb-2">Phone</h3>
-            <p>+919956789656</p>
+            <p>+919355207253</p>
           </div>
           </div>
           
