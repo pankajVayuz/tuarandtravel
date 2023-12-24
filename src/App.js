@@ -51,11 +51,30 @@ function App() {
         
         {/* Vehicle Image Gallery */}
         <h2 className="text-2xl font-semibold mt-8 mb-4">Vehicle Image Gallery</h2>
-        <div className="grid grid-cols-3 gap-4">
-          <img src={vehicle1} alt="Vehicle 1" className="w-full h-auto rounded-md" />
-          <img src={vehicle2} alt="Vehicle 2" className="w-full h-auto rounded-md" />
-          <img src={vehicle3} alt="Vehicle 3" className="w-full h-auto rounded-md" />
-        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+  <div className="aspect-w-1 aspect-h-1">
+    <img 
+      src={vehicle1} 
+      alt="Vehicle 1" 
+      className="object-cover w-full h-full rounded-md" 
+    />
+  </div>
+  <div className="aspect-w-1 aspect-h-1">
+    <img 
+      src={vehicle2} 
+      alt="Vehicle 2" 
+      className="object-cover w-full h-full rounded-md" 
+    />
+  </div>
+  <div className="aspect-w-1 aspect-h-1">
+    <img 
+      src={vehicle3} 
+      alt="Vehicle 3" 
+      className="object-cover w-full h-full rounded-md" 
+    />
+  </div>
+</div>
+
         
         {/* Contact Us */}
         <h2 className="text-2xl font-semibold mt-8 mb-4">Contact Us</h2>
